@@ -37,6 +37,7 @@ class ListFoodByCharacter extends StatelessWidget {
                         builder: (context) {
                           return NavigatorFoodCharacter(
                             c: UtilsSingleton.buildAlphabetList()[index],
+                            mealsPresenter: value,
                           );
                         },
                       ),
